@@ -155,6 +155,7 @@ section .ar1 .btn1, section .ar1 .btn2 {
   border-radius: 0.2rem;
   border: none;
   font-weight: 600;
+  font-size: 1rem;
 }
 section .ar1 .btn2 {
   width: 12rem;
@@ -451,4 +452,52 @@ section .ar1 a {
 }
 .pg6-full .pg6 .pg6-card:hover {
   background: linear-gradient(100deg, rgba(25, 25, 255, 0.9), rgba(212, 24, 24, 0.6));
+}
+
+.fdiv {
+  width: 40%;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 2rem;
+}
+.fdiv h1 {
+  line-height: 5rem;
+}
+.fdiv h2 {
+  font-size: 3rem;
+}
+.fdiv span {
+  color: coral;
+}
+
+.btn button {
+  padding: 0.6rem 0;
+  width: 8rem;
+  margin-top: 2rem;
+  outline: none;
+  border-radius: 0.2rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 0;
+  background-color: rgb(80, 144, 228);
+  width: 14rem;
+  margin-top: 0.6rem;
+}
+.btn button a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.btn2 {
+  width: 12rem;
+  margin-left: 1rem;
 }/*# sourceMappingURL=app.css.map */

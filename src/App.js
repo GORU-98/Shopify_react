@@ -2,16 +2,20 @@ import './Styles/app.css';
 import "./components/Signup"
 // import Signup from './components/Signup';
 // import Secpage from './components/Secpage';
-import FifthPage from './components/FifthPage';
+import LastPage from './components/LastPage';
+// import WelcomePage from './components/WelcomePage';
+// import FifthPage from './components/FifthPage';
 // import ForthPage from './components/ForthPage';
 // import Thirdpage from './components/Thirdpage';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 // import { BrowserRouter,Route,Routes } from "react-router-dom";
 function App() {
   return (
     <>
-    <Navbar/>
-    <FifthPage/>
+    {/* <Navbar/> */}
+    {/* <WelcomePage/> */}
+    <LastPage/>
+    {/* <FifthPage/> */}
     {/* <ForthPage/> */}
     {/* <Thirdpage/> */}
     {/* <Secpage/> */}
