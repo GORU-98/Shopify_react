@@ -1,15 +1,12 @@
 import React from 'react'
-
+import Vdo from './Vdo'
 const Signup = () => {
   return (
     <>
     <div className='Signup_page'>
-
-               <div className="bg_vdd">
-                    <video autoPlay muted loop id="myVideo">
-                    <source src="./video/Baroque - 138064.mp4" type="video/mp4"/>
-                    </video>
-               </div>
+        
+                    <Vdo src="./video/Baroque - 138064.mp4"/>
+               
                    
 
     

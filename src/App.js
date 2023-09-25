@@ -1,38 +1,36 @@
 import './Styles/app.css';
 import "./components/Signup"
 // import Signup from './components/Signup';
-// import Secpage from './components/Secpage';
+import Home from './components/Home';
+import Secpage from './components/Secpage';
 import LastPage from './components/LastPage';
-// import WelcomePage from './components/WelcomePage';
+import WelcomePage from './components/WelcomePage';
 // import FifthPage from './components/FifthPage';
-// import ForthPage from './components/ForthPage';
-// import Thirdpage from './components/Thirdpage';
-// import Navbar from './components/Navbar';
-// import { BrowserRouter,Route,Routes } from "react-router-dom";
+import ForthPage from './components/ForthPage';
+import Thirdpage from './components/Thirdpage';
+import Shop from './components/Shop';
+import ShopNow from './components/ShopNow';
+import Navbar from './components/Navbar';
+import { BrowserRouter,Route,Routes } from "react-router-dom";
 function App() {
   return (
-    <>
-    {/* <Navbar/> */}
-    {/* <WelcomePage/> */}
-    <LastPage/>
-    {/* <FifthPage/> */}
-    {/* <ForthPage/> */}
-    {/* <Thirdpage/> */}
-    {/* <Secpage/> */}
-    </>
-// {/* <BrowserRouter>
-// <Routes>
-
-// <Route path='/' element={<Navbar title="Goru2k18"/>}>
-//         <Route index element={<Home />}/>
-        
-
-//         <Route path='/about' element={<Quality/>}/>
-// </Route>
-//     <Signup/>
-//     </Routes>
-//   </BrowserRouter> */}
-
+    <> 
+ <BrowserRouter>
+<Routes>
+<Route path='/' element={<Navbar/>}>
+        <Route index element={<Home />}/>     
+        <Route path="/sec" element={ <Secpage/>}/>
+        <Route path='/third' element={ <Thirdpage/>}/>
+        <Route path='/fourth' element={  <ForthPage/>}/>
+        {/* <Route path='/fifth' element={ <FifthPage/>}/> */}
+        <Route path='/last' element={  <LastPage/>}/>
+        <Route path='/welcome' element={ <WelcomePage/>}/>
+        <Route path='/Shop' element={ <Shop/>}/>
+        <Route path='/ShopNow' element={ <ShopNow/>}/>
+</Route>
+    </Routes>
+  </BrowserRouter> 
+  </>
   );
 }
 

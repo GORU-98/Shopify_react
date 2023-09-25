@@ -1,13 +1,12 @@
 import React from 'react'
-
+import Vdo from './Vdo'
 const WelcomePage = () => {
   return (
     <div class="container">
 
         <div class="fdiv">
-         <video autoPlay muted loop id="myVideo">
-        <source src="./video/Business - 138076.mp4" type="video/mp4"/>
-        </video>
+
+        <Vdo src="./video/Business - 138076.mp4"/>
 
         <div class="nm">
             <h1>PANCHAL INDUSTRIES</h1>

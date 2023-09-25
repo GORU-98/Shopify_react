@@ -1,4 +1,5 @@
 import React from 'react'
+import Vdo from './Vdo'
 
 const Thirdpage = () => {
     const List =[
@@ -62,10 +63,7 @@ const Thirdpage = () => {
   return (
     <div className='container'>
        <div class="pg3">
-             <video autoPlay muted loop id="myVideo">
-        <source src="./video/Cartoon - 137220.mp4" type="video/mp4"/>
-        </video>
-
+<Vdo src="./video/Cartoon - 137220.mp4"/>
             <div class="img1">
                 <h1>Buy from a vast range of clothes  </h1>
                 <div class="img"></div>
@@ -75,7 +73,7 @@ const Thirdpage = () => {
             <div class="img2">
                 <ul id="list">
                     {List.map((list)=>{
-                        return  <li><a href="/DESCpage">{list.txt}</a></li>
+                        return  <li key={list.id}><a href="/Shop">{list.txt}</a></li>
                     })}
                  </ul>
              </div>

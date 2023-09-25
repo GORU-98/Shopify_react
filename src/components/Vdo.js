@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Vdo = () => {
+const Vdo = (props) => {
   return (
     <div>
        <video autoPlay muted loop id="myVideo">
-            <source src="./video/Kid - 135875.mp4" type="video/mp4"/>
+            <source src={props.src} type="video/mp4"/>
             </video>
     </div>
   )

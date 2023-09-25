@@ -11,7 +11,7 @@ const ForthPage = () => {
             <div class="cardss">
              
              {ForthData.map((card)=>{
-                    return <div class="s-cards" style={{backgroundImage:`url(./pics/${card.src})`}}><a href="/DESCpage">{card.title}</a> </div>
+                    return <div class="s-cards" style={{backgroundImage:`url(./pics/${card.src})`}}><a href="/Shop">{card.category}</a> </div>
 
              })}
             </div>

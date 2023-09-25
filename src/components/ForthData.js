@@ -2,52 +2,124 @@ const ForthData=[
     {
         id:1,
         src:"trenchcoat.jpg",
-        title:"Trenchcoat"
+        title:"Trenchcoat",
+        category:"Trenchcoat",
+        
     },
+   
     {
         id:2,
         src:"jeans.jpg",
-        title:"Jeans"
+        title:"Jeans",
+        category:"Jeans"
     },
     {
         id:3,
         src:"cardigan.jpg",
-        title:"Cardigan"
+        title:"Cardigan",
+        category:"Cardigan",
     },
     {
         id:4,
         src:"jacket.jpg",
-        title:"Jacket"
+        title:"Jacket",
+        category:"Jacket",
     },
     {
         id:5,
         src:"sweater.jpg",
-        title:"Sweater"
+        title:"Sweater",
+        category:"Sweater",
     },
     {
         id:6,
         src:"lawndress.jpg",
-        title:"Lawndress"
+        title:"Lawndress",
+        category:"Lawndress",
     },
     {
         id:7,
         src:"socks.jpg",
-        title:"Socks"
+        title:"Socks",
+        category:"Socks",
     },
     {
         id:8,
         src:"fleece.jpg",
-        title:"Fleece"
+        title:"Fleece",
+        category:"Fleece",
     },
     {
         id:9,
         src:"wedding.jpg",
-        title:"Wedding"
+        title:"Wedding",
+        category:"Wedding",
     },
     {
         id:10,
         src:"hoodie.jpg",
-        title:"Hoodie"
+        title:"Hoodie",
+        category:"Hoodie",
+    },
+    {
+        id:11,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Trenchcoat",
+    },
+    {
+        id:12,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Jeans"
+    },
+    {
+        id:13,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Cardigan",
+    },
+    {
+        id:14,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Jacket",
+    },
+    {
+        id:15,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Sweater",
+    },
+    {
+        id:16,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Lawndress",
+    },
+    {
+        id:17,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Socks",
+    },
+    {
+        id:18,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Hoodie",
+    },
+    {
+        id:19,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Hoodie",
+    },
+    {
+        id:20,
+        src:"hoodie.jpg",
+        title:"Hoodie",
+        category:"Hoodie",
     },
 ]
 export default ForthData

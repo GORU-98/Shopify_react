@@ -1,4 +1,5 @@
 import React from 'react'
+import Vdo from './Vdo'
 
 const Secpage = () => {
     const Secdata = [
@@ -30,15 +31,12 @@ const Secpage = () => {
     ]
   return (
     <div className="container">
-<video autoPlay muted loop id="myVideo">
-              <source src="./video/Woman - 137579.mp4" type="video/mp4" />
-          </video>
-
+<Vdo src="./video/Woman - 137579.mp4"/>
     <div class="offers">
         {
             Secdata.map((sec)=>{
      return <div class="cards" key={sec.id} style={{backgroundImage:`url(${sec.src})`}}>
-        <a href="/DESCpage" >{sec.txt}</a>
+        <a href="/Shop" >{sec.txt}</a>
         {/* <img src={sec.src} alt="shop now" /> */}
     </div>
             })

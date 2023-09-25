@@ -11,7 +11,7 @@ const FifthPage = () => {
             <div class="pg6">
                 {ForthData.map((card)=>{
                     return <div class="pg6-card">
-                    <a href="/DESCpage">{card.title}</a>
+                    <a href="/Shop">{card.title}</a>
                 </div>
                 })}
                 
