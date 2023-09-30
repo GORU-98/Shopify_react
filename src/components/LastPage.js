@@ -16,8 +16,8 @@ const LastPage = () => {
     </div>
     
         <div class="btn">
-        <button><a href="/Fpage">Return To <span>Home</span></a></button>
-        <button className='btn2'><a href="/THIpage">Explore More Categories</a></button>
+        <button><a href="/">Return To <span>Home</span></a></button>
+        <button className='btn2'><a href="/Shop">Explore More Categories</a></button>
         </div>
 </div> 
 

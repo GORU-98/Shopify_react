@@ -79,6 +79,12 @@ $lhgh: 4rem;
         text-align: center;
         font-size: $fsize;
         cursor: pointer;
+        transition: all 0.5s ease;
+        outline: none;
+        border: none;
+        &:hover{
+            background-color: $bg-cl1;
+        }
     }
 }
 
@@ -145,11 +151,10 @@ h2,.logo2,.logo1{
     cursor: pointer;
 }
 
-.logo1 {
-    width: 2.5rem;
-    margin-right: 0.5%;
-    cursor: pointer;
+h2{
+    margin-left: 3rem;
 }
+
 }
 
 
@@ -196,6 +201,8 @@ section {
         
         .btn1,.btn2 {
             @include btn(1rem);
+            transition: all 0.5s ease;
+            font-weight: 700;
         }
         
         .btn2 {  
@@ -204,8 +211,9 @@ section {
         
          button:hover {
             transform: scale(1rem);
-            background-color: #47ffff;
-        
+           
+                background-color: $bg-cl1;
+            
         
         }
         span {
@@ -225,19 +233,15 @@ section {
     height: 100%;
     margin-top: 6%;
      .img {
-        background-image: url(./pics/pic6.jpg);
+        background-image: url(./pics/pic4.jpg);
         background-size: cover;
         background-position: center;
         width: 50%;
         margin-left: 45%;
         height: 70vh;
-        box-shadow:
-            0px 1px 2px 0px rgba(0, 255, 255, 0.7),
-            2px 3px 5px 0px rgba(0, 255, 255, 0.7),
-            5px 6px 8px 0px rgba(0, 255, 255, 0.7),
-            4px 8px 16px 0px rgba(0, 255, 255, 0.7);
+      
     
-        animation: pic 20s infinite linear;
+        // animation: pic 20s infinite linear;
         transition: animation 2s linear;
     }
     
@@ -268,14 +272,13 @@ section {
 .offers {
     width: 100%;
     height: 82vh;
-    background-color:$bg-cl1;
+    // background-color:$bg-cl1;
     overflow-x: scroll;
     text-align: center;
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 padding: 1.5rem 2rem;
-
         &::-webkit-scrollbar {
             display: none;
         }
@@ -294,11 +297,12 @@ padding: 1.5rem 2rem;
     background-position: center;
     background-size: cover;
     margin-bottom: 3rem;
+border-radius: 0.5rem;
+    cursor:pointer ;
     &:hover {
-        border-radius: 1rem;
-        box-shadow:
-            4px 4px 16px,
-            -4px -4px 16px;
+        // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+       
     }
 }
 
@@ -579,8 +583,8 @@ text-align: center;
     background-position: center;
     background-size: cover;
     }
-    a,.btn1{
-        @include anchor(1rem,600 )
+    .btn1{
+        @include anchor(1rem,600 );
     }
     .btn1,.btn2{
     position: absolute;
@@ -595,6 +599,12 @@ text-align: center;
     .btn2{
         margin-top: 0.3rem;
         top: 88.5%;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: all 0.5s ease;
+        &:hover{
+            background-color: $bg-cl1;
+        }
     }
     .btn1{
         max-width:100%;
@@ -606,6 +616,9 @@ text-align: center;
     @include btn(1rem);
     margin-right: 00.5rem;
     cursor: pointer;
+    &:hover{
+        background-color: $bg-cl;
+    }
 }
   
 // shopnow
@@ -680,5 +693,23 @@ transition: all 0.7s ease ;
 
 
 
- 
-  
+//  
+
+
+
+  .nm5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    span{
+      color: red;
+    }
+}
+.btn{
+      button{
+        margin-right: 1rem;
+      }
+
+  }

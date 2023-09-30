@@ -12,8 +12,8 @@ const Home = () => {
                   <h1>Get the latest <span>fashion</span> and be a fashionholic</h1>
                   <h3>Whoever said money can't buy happiness simply didn't know where to go shopping.People are always going to go shopping. A lot of our effort is just: 'How do we make the retail experience a great one?'</h3>
 
-                  <button class="btn1"><a href="/third"> SHop now</a></button>
-                  <button class="btn2"><a href="/sec"> GRab your deal here</a></button>
+                  <button class="btn1"><a href="/third"> SHop now</a> </button>
+                  <button class="btn2"><a href="/sec"> GRab your deal here</a> </button>
               </div>
 
               <div class="ar2">

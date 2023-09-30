@@ -4,7 +4,7 @@ const ForthData=[
         src:"trenchcoat.jpg",
         title:"Trenchcoat",
         category:"Trenchcoat",
-        
+        des:""
     },
    
     {
@@ -99,7 +99,7 @@ const ForthData=[
     },
     {
         id:17,
-        src:"hoodie.jpg",
+        src:"wedding.jpg",
         title:"Hoodie",
         category:"Socks",
     },
@@ -117,7 +117,7 @@ const ForthData=[
     },
     {
         id:20,
-        src:"hoodie.jpg",
+        src:"wedding.jpg",
         title:"Hoodie",
         category:"Hoodie",
     },

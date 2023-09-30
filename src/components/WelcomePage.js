@@ -14,8 +14,8 @@ const WelcomePage = () => {
         </div>
 
         <div class="btn">
-            <button><a href="/Fpage">Go To <span>Home</span></a></button>
-            <button className='btn2'><a href="/THIpage">Explore More Categories</a></button>
+            <button><a href="/">Go To <span>Home</span></a> </button>
+            <button className='btn2'><a href="/Shop">Explore More Categories</a> </button>
         </div>
 </div> 
     

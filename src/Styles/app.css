@@ -46,6 +46,12 @@ body::-webkit-scrollbar {
   text-align: center;
   font-size: 1.2rem;
   cursor: pointer;
+  transition: all 0.5s ease;
+  outline: none;
+  border: none;
+}
+.signup_form .btn:hover {
+  background-color: coral;
 }
 
 form {
@@ -103,10 +109,8 @@ header {
 header h2, header .logo2, header .logo1 {
   cursor: pointer;
 }
-header .logo1 {
-  width: 2.5rem;
-  margin-right: 0.5%;
-  cursor: pointer;
+header h2 {
+  margin-left: 3rem;
 }
 
 nav {
@@ -156,6 +160,8 @@ section .ar1 .btn1, section .ar1 .btn2 {
   border: none;
   font-weight: 600;
   font-size: 1rem;
+  transition: all 0.5s ease;
+  font-weight: 700;
 }
 section .ar1 .btn2 {
   width: 12rem;
@@ -163,7 +169,7 @@ section .ar1 .btn2 {
 }
 section .ar1 button:hover {
   transform: scale(1rem);
-  background-color: #47ffff;
+  background-color: coral;
 }
 section .ar1 span {
   color: #47ffff;
@@ -182,15 +188,12 @@ section .ar1 a {
   margin-top: 6%;
 }
 .ar2 .img {
-  background-image: url(./pics/pic6.jpg);
+  background-image: url(./pics/pic4.jpg);
   background-size: cover;
   background-position: center;
   width: 50%;
   margin-left: 45%;
   height: 70vh;
-  box-shadow: 0px 1px 2px 0px rgba(0, 255, 255, 0.7), 2px 3px 5px 0px rgba(0, 255, 255, 0.7), 5px 6px 8px 0px rgba(0, 255, 255, 0.7), 4px 8px 16px 0px rgba(0, 255, 255, 0.7);
-  -webkit-animation: pic 20s infinite linear;
-          animation: pic 20s infinite linear;
   transition: -webkit-animation 2s linear;
   transition: animation 2s linear;
   transition: animation 2s linear, -webkit-animation 2s linear;
@@ -221,7 +224,6 @@ section .ar1 a {
 .offers {
   width: 100%;
   height: 82vh;
-  background-color: coral;
   overflow-x: scroll;
   text-align: center;
   margin-top: 3rem;
@@ -248,10 +250,11 @@ section .ar1 a {
   background-position: center;
   background-size: cover;
   margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 .cards:hover {
-  border-radius: 1rem;
-  box-shadow: 4px 4px 16px, -4px -4px 16px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .pg3 {
@@ -532,7 +535,7 @@ section .ar1 a {
   background-position: center;
   background-size: cover;
 }
-.img a, .img .btn1 {
+.img .btn1 {
   text-decoration: none;
   color: black;
   font-size: 1rem;
@@ -551,6 +554,12 @@ section .ar1 a {
 .img .btn2 {
   margin-top: 0.3rem;
   top: 88.5%;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.img .btn2:hover {
+  background-color: coral;
 }
 .img .btn1 {
   max-width: 100%;
@@ -569,6 +578,9 @@ section .ar1 a {
   font-size: 1rem;
   margin-right: 0.5rem;
   cursor: pointer;
+}
+.btn3:hover {
+  background-color: rgb(80, 144, 228);
 }
 
 .shopnow {
@@ -633,4 +645,19 @@ section .ar1 a {
 .shopnow .shopDesc .btn5 {
   grid-row: 5/6;
   margin-left: 1rem;
+}
+
+.nm5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.nm5 span {
+  color: red;
+}
+
+.btn button {
+  margin-right: 1rem;
 }/*# sourceMappingURL=app.css.map */

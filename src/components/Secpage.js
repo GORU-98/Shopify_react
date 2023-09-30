@@ -10,7 +10,7 @@ const Secpage = () => {
         },
         {
             id:2,
-            src:"./pics/p1.jpg",
+            src:"./pics/p2.jpg",
             txt:"get it on 70% off",
         },
         {
@@ -20,12 +20,22 @@ const Secpage = () => {
         },
         {
             id:4,
-            src:"./pics/p1.jpg",
+            src:"./pics/p3.jpg",
             txt:"get it on 70% off",
         },
         {
             id:5,
-            src:"./pics/p1.jpg",
+            src:"./pics/p0.jpg",
+            txt:"get it on 70% off",
+        },
+        {
+            id:6,
+            src:"./pics/p9.jpg",
+            txt:"get it on 70% off",
+        },
+        {
+            id:7,
+            src:"./pics/p13.jpg",
             txt:"get it on 70% off",
         },
     ]
@@ -36,7 +46,7 @@ const Secpage = () => {
         {
             Secdata.map((sec)=>{
      return <div class="cards" key={sec.id} style={{backgroundImage:`url(${sec.src})`}}>
-        <a href="/Shop" >{sec.txt}</a>
+        <a href="/Shop" >{sec.txt}</a> 
         {/* <img src={sec.src} alt="shop now" /> */}
     </div>
             })
